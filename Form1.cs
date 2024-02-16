@@ -12,6 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +31,12 @@ namespace WindowsFormsApp1
         private void nombreLogging_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void botonInicioSesion_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
         }
     }
 }

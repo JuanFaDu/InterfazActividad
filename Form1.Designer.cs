@@ -75,6 +75,7 @@ namespace WindowsFormsApp1
             this.botonInicioSesion.TabIndex = 3;
             this.botonInicioSesion.Text = "INICIAR SESIÓN";
             this.botonInicioSesion.UseVisualStyleBackColor = true;
+            this.botonInicioSesion.Click += new System.EventHandler(this.botonInicioSesion_Click);
             // 
             // labelNombreLogging
             // 
