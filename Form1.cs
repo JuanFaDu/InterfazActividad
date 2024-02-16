@@ -16,5 +16,20 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void correoLogging_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombreLogging_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
